@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neohcm"
+version = "0.1.1"
+description = "NeoHCM - Human Capital Management for Frappe"
+readme = "README.md"
+license = { text = "GPL-3.0-or-later" }
+authors = [{ name = "Neotec", email = "support@eotec.ai" }]
+requires-python = ">=3.10"
+dependencies = []

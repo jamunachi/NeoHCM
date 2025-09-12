@@ -1,0 +1,17 @@
+.gradle/
+gradle/
+node_modules/
+dist/
+build/
+*.log
+__pycache__/
+*.py[cod]
+.env
+venv/
+env/
+.DS_Store
+.idea/
+.vscode/
+assets/
+sites/assets/
+coverage/

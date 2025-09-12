@@ -1,0 +1,7 @@
+{
+  "doctype": "Page",
+  "title": "NeoHCM Setup",
+  "name": "neo-brand-setup",
+  "module": "NeoHCM",
+  "standard": 1
+}

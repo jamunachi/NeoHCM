@@ -1,0 +1,3 @@
+recursive-include neohcm *.json *.md *.py *.js *.css *.txt *.png *.svg *.ico
+include LICENSE
+include README.md
