@@ -4,7 +4,7 @@ app_publisher = "Neotec"
 app_description = "Human Capital Management for Frappe with delightful UI & easy branding"
 app_email = "support@eotec.ai"
 app_license = "GPL-3.0-or-later"
-app_version = "0.1.3"
+app_version = "0.1.4"
 
 # Assets
 app_include_css = ["neohcm/public/neohcm.css"]
