@@ -22,3 +22,5 @@ fixtures = [
 ]
 
 after_install = ["neohcm.permissions.sync_permissions"]
+
+app_version = "0.1.2"
