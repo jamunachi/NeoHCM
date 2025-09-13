@@ -6,3 +6,5 @@ target-version = ["py311"]
 line-length = 100
 select = ["E","F","I","B"]
 ignore = []
+[tool.bench.frappe-dependencies]
+frappe = ">=15.0.0,<16.0.0"
