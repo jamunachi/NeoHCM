@@ -1,10 +1,13 @@
-[tool.black]
-line-length = 100
-target-version = ["py311"]
+[project]
+name = "neohcm"
+version = "0.1.1"
+description = "Neo HCM for Frappe"
+readme = "README.md"
+requires-python = ">=3.10,<3.12"
 
-[tool.ruff]
-line-length = 100
-select = ["E","F","I","B"]
-ignore = []
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
 [tool.bench.frappe-dependencies]
 frappe = ">=15.0.0,<16.0.0"
