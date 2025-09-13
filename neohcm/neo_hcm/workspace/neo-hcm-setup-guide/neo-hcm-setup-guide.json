@@ -1,0 +1,9 @@
+{
+  "doctype": "Workspace",
+  "public": 1,
+  "module": "Neo HCM",
+  "title": "Neo HCM • Setup Guide",
+  "label": "Neo HCM • Setup Guide",
+  "icon": "octicon octicon-people",
+  "content": "{\"blocks\": [{\"type\": \"text\", \"title\": \"\", \"content\": \"# NeoHCM Setup Guide (Neotec)\\n\\nOpen /app/neohcm-setup-guide inside your site.\\n\"}]}"
+}

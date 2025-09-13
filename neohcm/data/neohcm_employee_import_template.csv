@@ -1,0 +1,3 @@
+employee_id,first_name,last_name,date_of_birth,date_of_joining,gender,company_email,personal_email,mobile_no
+EMP-0001,Ali,Saleh,1990-01-05,2021-06-01,Male,ali.saleh@example.com,ali.personal@example.com,+966500000001
+EMP-0002,Sara,Ahmed,1992-03-12,2022-02-15,Female,sara.ahmed@example.com,,+966500000002

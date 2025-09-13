@@ -1,0 +1,34 @@
+{
+  "doctype": "DocType",
+  "name": "NeoHCM Employment History",
+  "module": "Neo HCM",
+  "istable": 1,
+  "custom": 0,
+  "track_changes": 1,
+  "fields": [
+    {
+      "fieldname": "company_name",
+      "label": "Company Name",
+      "fieldtype": "Data",
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "designation",
+      "label": "Designation",
+      "fieldtype": "Data",
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "from_date",
+      "label": "From Date",
+      "fieldtype": "Date",
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "to_date",
+      "label": "To Date",
+      "fieldtype": "Date",
+      "in_list_view": 1
+    }
+  ]
+}

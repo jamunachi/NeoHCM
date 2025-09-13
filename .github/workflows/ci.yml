@@ -1,0 +1,46 @@
+name: Lint
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install tools
+        run: |
+          python -m pip install --upgrade pip
+          pip install black ruff
+      - name: Black check
+        run: black --check .
+      - name: Ruff
+        run: ruff .
+
+
+# E2E (optional) — runs only if E2E_BASE_URL is provided
+jobs:
+  e2e:
+    if: ${{ secrets.E2E_BASE_URL != '' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Install Playwright
+        working-directory: e2e
+        run: |
+          npm ci || npm install
+          npm run install:browsers
+      - name: Run E2E tests
+        working-directory: e2e
+        env:
+          E2E_BASE_URL: ${{ secrets.E2E_BASE_URL }}
+          E2E_USER: ${{ secrets.E2E_USER }}
+          E2E_PASS: ${{ secrets.E2E_PASS }}
+        run: npm test

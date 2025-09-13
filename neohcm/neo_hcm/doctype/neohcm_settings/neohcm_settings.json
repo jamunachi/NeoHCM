@@ -1,0 +1,62 @@
+{
+  "doctype": "DocType",
+  "name": "NeoHCM Settings",
+  "module": "Neo HCM",
+  "custom": 0,
+  "istable": 0,
+  "track_changes": 1,
+  "allow_rename": 0,
+  "issingle": 1,
+  "fields": [
+    {
+      "fieldname": "company_name",
+      "label": "Company Name",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "logo",
+      "label": "Logo",
+      "fieldtype": "Attach Image"
+    },
+    {
+      "fieldname": "primary_color",
+      "label": "Primary Color",
+      "fieldtype": "Color",
+      "default": "#2C63D6"
+    },
+    {
+      "fieldname": "secondary_color",
+      "label": "Secondary Color",
+      "fieldtype": "Color",
+      "default": "#224DB8"
+    },
+    {
+      "fieldname": "theme",
+      "label": "Theme",
+      "fieldtype": "Select",
+      "options": "light\ndark\nauto",
+      "default": "light"
+    },
+    {
+      "fieldname": "footer_text",
+      "label": "Footer Text",
+      "fieldtype": "Small Text"
+    }
+  ],
+  "permissions": [
+    {
+      "role": "System Manager",
+      "read": 1,
+      "write": 1,
+      "create": 1,
+      "delete": 1,
+      "share": 1,
+      "print": 1,
+      "email": 1
+    },
+    {
+      "role": "All",
+      "read": 1
+    }
+  ]
+}

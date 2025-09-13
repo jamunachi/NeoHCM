@@ -1,0 +1,3 @@
+parent,parenttype,parentfield,company_name,designation,from_date,to_date
+EMP-0001,NeoHCM Employee,employment_history,ABC Co.,Engineer,2017-01-01,2020-12-31
+EMP-0001,NeoHCM Employee,employment_history,DEF Ltd.,Senior Engineer,2021-01-01,2021-05-31
