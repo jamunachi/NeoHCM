@@ -1,3 +1,4 @@
 from frappe.model.document import Document
-class NeoHCMSettings(Document):
+
+class NeoHCMOnboarding(Document):
     pass

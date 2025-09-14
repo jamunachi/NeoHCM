@@ -1,3 +1,3 @@
 from frappe.model.document import Document
-class NeoHCMSettings(Document):
+class NeoHCMEmployee(Document):
     pass
