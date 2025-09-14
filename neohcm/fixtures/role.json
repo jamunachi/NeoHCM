@@ -1,4 +1,18 @@
 [
+<<<<<<< HEAD
   { "doctype": "Role", "name": "Neo HCM User",    "role_name": "Neo HCM User" },
   { "doctype": "Role", "name": "Neo HCM Manager", "role_name": "Neo HCM Manager" }
 ]
+=======
+  {
+    "doctype": "Role",
+    "name": "Neo HCM User", "role_name": "Neo HCM User",
+    "desk_access": 1
+  },
+  {
+    "doctype": "Role",
+    "name": "Neo HCM Manager", "role_name": "Neo HCM Manager",
+    "desk_access": 1
+  }
+]
+>>>>>>> 1cdc85e (fix(fixtures): add missing "name" to Form Tour, Role, Role Profile fixtures)
