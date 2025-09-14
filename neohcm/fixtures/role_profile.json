@@ -1,26 +1,4 @@
 [
-  {
-    "doctype": "Role Profile",
-    "role_profile": "Neo HCM User Profile",
-    "roles": [
-      {
-        "doctype": "Role Profile Role",
-        "role": "Neo HCM User"
-      }
-    ]
-  },
-  {
-    "doctype": "Role Profile",
-    "role_profile": "Neo HCM Manager Profile",
-    "roles": [
-      {
-        "doctype": "Role Profile Role",
-        "role": "Neo HCM Manager"
-      },
-      {
-        "doctype": "Role Profile Role",
-        "role": "System Manager"
-      }
-    ]
-  }
+  { "doctype": "Role Profile", "name": "Neo HCM User Profile",    "role_profile": "Neo HCM User Profile",    "roles": [ ... ] },
+  { "doctype": "Role Profile", "name": "Neo HCM Manager Profile", "role_profile": "Neo HCM Manager Profile", "roles": [ ... ] }
 ]
