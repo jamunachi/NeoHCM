@@ -1,0 +1,9 @@
+{
+  "doctype": "Workspace",
+  "public": 1,
+  "module": "Neo HCM",
+  "title": "Neo HCM • Brand Setup",
+  "label": "Neo HCM • Brand Setup",
+  "icon": "octicon octicon-people",
+  "content": "{\"blocks\": [{\"type\": \"text\", \"title\": \"\", \"content\": \"Use **NeoHCM Settings** to brand your UI. This workspace complements the Brand Setup page.\"}]}"
+}

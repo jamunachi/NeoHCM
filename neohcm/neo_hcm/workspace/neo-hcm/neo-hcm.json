@@ -1,0 +1,9 @@
+{
+  "doctype": "Workspace",
+  "public": 1,
+  "module": "Neo HCM",
+  "title": "Neo HCM",
+  "label": "Neo HCM",
+  "icon": "octicon octicon-people",
+  "content": "{\"blocks\": [{\"type\": \"shortcut\", \"title\": \"Onboarding\", \"link_type\": \"Page\", \"link_to\": \"neo-hcm-onboarding\"}, {\"type\": \"shortcut\", \"title\": \"NeoHCM Settings\", \"link_type\": \"DocType\", \"link_to\": \"NeoHCM Settings\", \"doc_view\": \"Form\"}, {\"type\": \"shortcut\", \"title\": \"Neo Brand Setup\", \"link_type\": \"Page\", \"link_to\": \"neo-brand-setup\"}, {\"type\": \"shortcut\", \"title\": \"Setup Guide\", \"link_type\": \"Page\", \"link_to\": \"neohcm-setup-guide\"}, {\"type\": \"shortcut\", \"title\": \"User Manual\", \"link_type\": \"Page\", \"link_to\": \"neohcm-user-manual\"}, {\"type\": \"shortcut\", \"title\": \"Brand Workspace\", \"link_type\": \"Workspace\", \"link_to\": \"Neo HCM \\u2022 Brand Setup\"}, {\"type\": \"shortcut\", \"title\": \"Setup Workspace\", \"link_type\": \"Workspace\", \"link_to\": \"Neo HCM \\u2022 Setup Guide\"}, {\"type\": \"shortcut\", \"title\": \"Manual Workspace\", \"link_type\": \"Workspace\", \"link_to\": \"Neo HCM \\u2022 User Manual\"}]}"
+}

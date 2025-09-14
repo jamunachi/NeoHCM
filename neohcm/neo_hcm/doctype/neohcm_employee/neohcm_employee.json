@@ -1,0 +1,104 @@
+{
+  "doctype": "DocType",
+  "name": "NeoHCM Employee",
+  "module": "Neo HCM",
+  "autoname": "format:EMP-{####}",
+  "custom": 0,
+  "track_changes": 1,
+  "fields": [
+    {
+      "fieldname": "employee_id",
+      "label": "Employee ID",
+      "fieldtype": "Data",
+      "reqd": 1,
+      "unique": 1,
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "first_name",
+      "label": "First Name",
+      "fieldtype": "Data",
+      "reqd": 1,
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "last_name",
+      "label": "Last Name",
+      "fieldtype": "Data",
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "date_of_birth",
+      "label": "Date of Birth",
+      "fieldtype": "Date"
+    },
+    {
+      "fieldname": "date_of_joining",
+      "label": "Date of Joining",
+      "fieldtype": "Date"
+    },
+    {
+      "fieldname": "gender",
+      "label": "Gender",
+      "fieldtype": "Select",
+      "options": "Male\nFemale\nOther"
+    },
+    {
+      "fieldname": "company_email",
+      "label": "Company Email",
+      "fieldtype": "Data",
+      "options": "Email",
+      "in_list_view": 1
+    },
+    {
+      "fieldname": "personal_email",
+      "label": "Personal Email",
+      "fieldtype": "Data",
+      "options": "Email"
+    },
+    {
+      "fieldname": "mobile_no",
+      "label": "Mobile No",
+      "fieldtype": "Data"
+    },
+    {
+      "fieldname": "sec_break",
+      "fieldtype": "Section Break",
+      "label": "Employment History"
+    },
+    {
+      "fieldname": "employment_history",
+      "label": "Employment History",
+      "fieldtype": "Table",
+      "options": "NeoHCM Employment History"
+    }
+  ],
+  "permissions": [
+    {
+      "role": "Neo HCM User",
+      "read": 1,
+      "print": 1,
+      "email": 1
+    },
+    {
+      "role": "Neo HCM Manager",
+      "read": 1,
+      "write": 1,
+      "create": 1,
+      "delete": 1,
+      "print": 1,
+      "email": 1,
+      "share": 1
+    },
+    {
+      "role": "System Manager",
+      "read": 1,
+      "write": 1,
+      "create": 1,
+      "delete": 1,
+      "print": 1,
+      "email": 1,
+      "share": 1
+    }
+  ]
+}

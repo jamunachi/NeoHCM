@@ -1,17 +1,24 @@
+# Build / caches
 .gradle/
 gradle/
 node_modules/
 dist/
 build/
-*.log
 __pycache__/
 *.py[cod]
+
+# Logs & env
+*.log
 .env
 venv/
 env/
+
+# OS / IDE
 .DS_Store
 .idea/
 .vscode/
+
+# Coverage or generated assets
+coverage/
 assets/
 sites/assets/
-coverage/

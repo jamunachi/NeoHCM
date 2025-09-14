@@ -1,0 +1,61 @@
+{
+  "doctype": "DocType",
+  "name": "NeoHCM Onboarding",
+  "module": "Neo HCM",
+  "issingle": 1,
+  "custom": 0,
+  "track_changes": 1,
+  "fields": [
+    {
+      "fieldname": "welcome_completed",
+      "label": "Welcome Completed",
+      "fieldtype": "Check"
+    },
+    {
+      "fieldname": "settings_completed",
+      "label": "Settings Completed",
+      "fieldtype": "Check"
+    },
+    {
+      "fieldname": "branding_completed",
+      "label": "Branding Completed",
+      "fieldtype": "Check"
+    },
+    {
+      "fieldname": "guide_read",
+      "label": "Setup Guide Read",
+      "fieldtype": "Check"
+    },
+    {
+      "fieldname": "manual_read",
+      "label": "User Manual Read",
+      "fieldtype": "Check"
+    }
+  ],
+  "permissions": [
+    {
+      "role": "Neo HCM User",
+      "read": 1
+    },
+    {
+      "role": "Neo HCM Manager",
+      "read": 1,
+      "write": 1,
+      "create": 1,
+      "delete": 1,
+      "print": 1,
+      "email": 1,
+      "share": 1
+    },
+    {
+      "role": "System Manager",
+      "read": 1,
+      "write": 1,
+      "create": 1,
+      "delete": 1,
+      "print": 1,
+      "email": 1,
+      "share": 1
+    }
+  ]
+}

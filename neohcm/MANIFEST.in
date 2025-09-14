@@ -1,0 +1,3 @@
+recursive-include neohcm *.json *.js *.css *.py *.md *.txt
+prune **/__pycache__
+global-exclude *.py[cod]
