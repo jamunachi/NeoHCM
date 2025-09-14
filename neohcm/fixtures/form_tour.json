@@ -1,48 +1,19 @@
 [
   {
     "doctype": "Form Tour",
+    "name": "NeoHCM Settings Tour",              ← add this
     "title": "NeoHCM Settings Tour",
     "reference_doctype": "NeoHCM Settings",
     "route": "Form/NeoHCM Settings",
     "is_standard": 1,
     "show_onload": 0,
     "steps": [
-      {
-        "doctype": "Form Tour Step",
-        "title": "Company Name",
-        "description": "Enter your company name.",
-        "field": "company_name"
-      },
-      {
-        "doctype": "Form Tour Step",
-        "title": "Logo",
-        "description": "Upload your brand logo (optional).",
-        "field": "logo"
-      },
-      {
-        "doctype": "Form Tour Step",
-        "title": "Primary Color",
-        "description": "Pick a primary color used across the UI.",
-        "field": "primary_color"
-      },
-      {
-        "doctype": "Form Tour Step",
-        "title": "Secondary Color",
-        "description": "Pick a secondary color.",
-        "field": "secondary_color"
-      },
-      {
-        "doctype": "Form Tour Step",
-        "title": "Theme",
-        "description": "Choose light / dark / auto.",
-        "field": "theme"
-      },
-      {
-        "doctype": "Form Tour Step",
-        "title": "Footer Text",
-        "description": "Add an optional footer note for the desk.",
-        "field": "footer_text"
-      }
+      { "doctype": "Form Tour Step", "title": "Company Name", "description": "Enter your company name.", "field": "company_name" },
+      { "doctype": "Form Tour Step", "title": "Logo", "description": "Upload your brand logo (optional).", "field": "logo" },
+      { "doctype": "Form Tour Step", "title": "Primary Color", "description": "Pick a primary color used across the UI.", "field": "primary_color" },
+      { "doctype": "Form Tour Step", "title": "Secondary Color", "description": "Pick a secondary color.", "field": "secondary_color" },
+      { "doctype": "Form Tour Step", "title": "Theme", "description": "Choose light / dark / auto.", "field": "theme" },
+      { "doctype": "Form Tour Step", "title": "Footer Text", "description": "Add an optional footer note for the desk.", "field": "footer_text" }
     ]
   }
 ]
